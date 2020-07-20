@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+body {
+  @apply text-nube;
+  font-family: "Inter", sans-serif;
+}
+
+.section {
+  @apply w-full;
+}
+
+.container {
+  @apply mx-auto;
+  max-width: 960px;
+  position: relative;
+}
+
+.h1,
+.h2,
+.h3 {
+  @apply leading-tight font-semibold text-noche;
+}
+
+.h1 {
+  @apply text-4xl;
+}
+
+.h2 {
+  @apply text-3xl;
+}
+
+.h3 {
+  @apply text-xl;
+}
+
+.Navbar__menu__menu-item {
+  @apply py-3 px-5;
+}
+
+.hero-container {
+  display: flex;
+}
+
+.hero-img {
+  @apply object-cover rounded-lg;
+  height: 500px;
+}
+
+.btn {
+  @apply py-4 px-8 rounded-lg bg-gray-400 text-noche font-semibold;
+}
+.btn--primary {
+  @apply bg-peach;
+}
