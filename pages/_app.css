@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 body {
-  @apply text-nube leading-4;
+  @apply text-nube leading-5;
   font-family: "Inter", sans-serif;
 }
 
@@ -27,21 +27,21 @@ body {
 
 .h1 {
   @apply text-2xl;
-  @screen lg {
-    @apply .text-4xl;
-  }
 }
-
 .h2 {
   @apply text-xl;
-  @screen lg {
-    @apply .text-3xl;
-  }
 }
-
 .h3 {
   @apply text-lg;
-  @screen lg {
+}
+@screen md {
+  .h1 {
+    @apply .text-4xl;
+  }
+  .h2 {
+    @apply .text-3xl;
+  }
+  .h3 {
     @apply .text-2xl;
   }
 }
@@ -64,4 +64,23 @@ body {
 }
 .btn--primary {
   @apply bg-peach;
+}
+
+.bg-blob-1,
+.bg-blob-2 {
+  @apply fixed;
+  z-index: -1;
+  transform: scale(0.5);
+}
+.bg-blob-1 {
+  @apply right-0 top-0;
+  transform-origin: right top;
+}
+.bg-blob-2 {
+  @apply left-0 bottom-0;
+  transform-origin: left bottom;
+}
+
+.ProjectLayout {
+  min-height: 70vh;
 }
