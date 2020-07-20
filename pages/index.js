@@ -32,7 +32,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="px-2 md:px-0">
         <Navbar />
         <div className="section py-10">
           <div className="container">
@@ -50,7 +50,7 @@ const Home = () => {
               alt="Campbell Ave"
               className="hero-img w-11/12"
             />
-            <div className="hero-info absolute right-0 bottom-0 p-8 shadow-xl bg-white rounded-lg w-5/12 mb-5">
+            <div className="hero-info absolute bottom-0 right-0 p-4 md:p-8 w-10/12 md:w-5/12 mb-5 shadow-xl bg-white rounded-lg">
               <h2 className="h2 mb-2">Cambell Ave Apartment</h2>
               <p className="mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -63,7 +63,7 @@ const Home = () => {
         </div>
         <div className="section">
           <div className="container">
-            <div className="flex -mr-2 -ml-2">
+            <div className="flex  -mr-2 -ml-2">
               {featuredProjects.map((project) => (
                 <div className="flex-1">
                   <FeaturedProject

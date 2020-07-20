@@ -9,7 +9,7 @@ const FeaturedProject = ({ title, url, imagePath }) => {
 
   return (
     <div
-      className="FeaturedProject flex flex-col px-2 cursor-pointer"
+      className="FeaturedProject flex flex-col px-2 mb-10 md:mb-0 cursor-pointer"
       onClick={() => navigate(url)}
     >
       <img src={imagePath} alt="" className="object-cover mb-2" />

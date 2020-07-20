@@ -1,5 +1,5 @@
 const Navbar = () => (
-  <div className="Navbar py-10">
+  <div className="Navbar py-5 md:py-10">
     <div className="container flex justify-between items-center">
       <div className="Navbar__name">
         <div className="font-semibold text-noche text-lg my-0 leading-3">

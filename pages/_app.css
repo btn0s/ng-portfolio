@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 body {
-  @apply text-nube;
+  @apply text-nube leading-4;
   font-family: "Inter", sans-serif;
 }
 
@@ -26,15 +26,24 @@ body {
 }
 
 .h1 {
-  @apply text-4xl;
+  @apply text-2xl;
+  @screen lg {
+    @apply .text-4xl;
+  }
 }
 
 .h2 {
-  @apply text-3xl;
+  @apply text-xl;
+  @screen lg {
+    @apply .text-3xl;
+  }
 }
 
 .h3 {
-  @apply text-xl;
+  @apply text-lg;
+  @screen lg {
+    @apply .text-2xl;
+  }
 }
 
 .Navbar__menu__menu-item {
