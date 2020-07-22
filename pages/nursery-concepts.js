@@ -31,7 +31,7 @@ const NurseryConcepts = () => {
   return (
     <ProjectLayout
       title="Nursery Concepts"
-      imageURL="/featured/nursery-concepts-cover.png"
+      imageURL={`${ASSET_PATH}/cover.png`}
     >
       {concepts.map((concept, index) => (
         <section className="section py-10" key={concept.title}>

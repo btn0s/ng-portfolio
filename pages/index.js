@@ -56,10 +56,12 @@ const Home = () => {
       </div>
       <div className="section">
         <div className="container">
-          <h2 className="h2 pt-10 mb-5">Featured Projects</h2>
+          <h2 className="h2 pt-10 mb-2 mt-5 md:mb-5 md:mt-0">
+            Featured Projects
+          </h2>
           <div className="flex flex-col flex-wrap md:flex-row -mr-2 -ml-2">
-            <div className="w-full flex items-center mx-2 py-10">
-              <div className="w-8/12">
+            <div className="w-full flex flex-col md:flex-row items-center mx-2 md:py-10 mb-10">
+              <div className="w-full md:w-8/12">
                 <img
                   src="/projects/clients/cover.jpg"
                   alt="Design Challenges"
@@ -67,7 +69,7 @@ const Home = () => {
                   style={{ maxHeight: 400 }}
                 />
               </div>
-              <div className="w-4/12 px-10">
+              <div className="w-full md:w-4/12 pt-5 px-10">
                 <h3 className="h3 mb-2">Client Work</h3>
                 <p className="mb-5">A collection of my favorite client work.</p>
                 <Link href="/client-work">
@@ -75,8 +77,8 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="w-full flex items-center mx-2 py-10 mb-10">
-              <div className="w-8/12">
+            <div className="w-full flex flex-col md:flex-row items-center mx-2 md:py-10 mb-10">
+              <div className="w-full md:w-8/12">
                 <img
                   src="/projects/designchallenges/cover.jpg"
                   alt="Design Challenges"
@@ -84,7 +86,7 @@ const Home = () => {
                   style={{ maxHeight: 400 }}
                 />
               </div>
-              <div className="w-4/12 px-10">
+              <div className="w-full md:w-4/12 pt-5 px-10">
                 <h3 className="h3 mb-2">Design Challenges</h3>
                 <p className="mb-5">
                   A collection of design challenges featured on the{" "}

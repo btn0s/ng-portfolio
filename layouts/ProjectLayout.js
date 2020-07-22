@@ -13,8 +13,7 @@ const ProjectLayout = (props) => {
             <img
               src={imageURL}
               alt={title}
-              className="w-full rounded-lg object-cover mb-10 mt-10"
-              style={{ height: 500 }}
+              className="project-hero w-full rounded-lg object-cover md:mb-10 mt-5 md:mt-10"
             />
           )}
         </div>

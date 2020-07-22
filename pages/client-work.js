@@ -57,10 +57,10 @@ const ClientWork = () => {
           </div>
         </div>
       </section>
-      <section className="section py-10">
+      <section className="section md:py-10">
         <div className="container">
           <Masonry
-            breakpointCols={3}
+            breakpointCols={2}
             className="my-masonry-grid"
             columnClassName="my-masonry-grid_column"
           >

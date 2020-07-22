@@ -62,7 +62,7 @@ const CampbellAve = () => {
         <div className="container">
           <h2 className="h2 text-center mb-10">Final Product</h2>
           <Masonry
-            breakpointCols={3}
+            breakpointCols={2}
             className="my-masonry-grid"
             columnClassName="my-masonry-grid_column"
           >

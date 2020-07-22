@@ -56,7 +56,32 @@ body {
 
 .hero-img {
   @apply object-cover rounded-lg;
-  height: 500px;
+  height: 400px;
+}
+@screen md {
+  .hero-img {
+    height: 500px;
+  }
+}
+
+.hero-info {
+  right: -30px;
+  bottom: -30px;
+}
+@screen md {
+  .hero-info {
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+.project-hero {
+  height: 200px;
+}
+@screen md {
+  .project-hero {
+    height: 500px;
+  }
 }
 
 .btn {
@@ -87,12 +112,23 @@ body {
 
 .my-masonry-grid {
   display: flex;
-  margin-left: -30px; /* gutter size offset */
+  margin-left: -10px; /* gutter size offset */
   width: auto;
 }
+@screen md {
+  .my-masonry-grid_column {
+    margin-left: -30px; /* gutter size offset */
+  }
+}
+
 .my-masonry-grid_column {
-  padding-left: 30px; /* gutter size */
+  @apply pl-2;
   background-clip: padding-box;
+}
+@screen md {
+  .my-masonry-grid_column {
+    @apply pl-10;
+  }
 }
 
 /* Style your items */

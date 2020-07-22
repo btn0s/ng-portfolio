@@ -13,10 +13,10 @@ const Navbar = () => (
           </a>
         </Link>
       </div>
-      <div className="Navbar__menu flex">
+      {/* <div className="Navbar__menu flex">
         <div className="Navbar__menu__menu-item">about</div>
         <div className="Navbar__menu__menu-item">contact</div>
-      </div>
+      </div> */}
     </div>
   </div>
 );
