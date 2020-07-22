@@ -28,7 +28,7 @@ const Home = () => {
       <div className="section pt-5 md:pt-10 py-10">
         <div className="container">
           <h1 className="h1">
-            Hi there! I'm an interior designer and decorator
+            Hi there! I'm an interior designer and stylist
             <br />
             based in the Valley of the Sun.
           </h1>
