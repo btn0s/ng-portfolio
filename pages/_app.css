@@ -96,8 +96,8 @@ body {
 }
 
 /* Style your items */
-.my-masonry-grid_column > img {
+.my-masonry-grid_column > img,
+.my-masonry-grid_column > .grid-item {
   /* change div to reference your elements you put in <Masonry> */
-  background: grey;
-  margin-bottom: 30px;
+  @apply mb-10 text-center;
 }

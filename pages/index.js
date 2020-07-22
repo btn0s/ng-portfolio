@@ -7,19 +7,19 @@ const Home = () => {
       _id: 1,
       title: "Nursery Concepts",
       url: "/nursery-concepts",
-      imagePath: "/featured/nursery-concepts-cover.png",
+      imagePath: "/projects/nursery/cover.png",
     },
     {
       _id: 2,
       title: "Bedroom Concepts",
       url: "/bedroom-concepts",
-      imagePath: "/featured/bedroom-concepts-cover.png",
+      imagePath: "/projects/bedrooms/cover.png",
     },
     {
       _id: 3,
       title: "Living Room Concepts",
       url: "/living-room-concepts",
-      imagePath: "/featured/livingroom-concepts-cover.png",
+      imagePath: "/projects/livingrooms/cover.png",
     },
   ];
 
@@ -49,7 +49,7 @@ const Home = () => {
               expedita.
             </p>
             <Link href="/campbell-ave-apartment">
-              <button className="btn btn--primary">see more</button>
+              <button className="btn btn--primary">view</button>
             </Link>
           </div>
         </div>
@@ -57,9 +57,53 @@ const Home = () => {
       <div className="section">
         <div className="container">
           <h2 className="h2 pt-10 mb-5">Featured Projects</h2>
-          <div className="flex flex-col md:flex-row -mr-2 -ml-2">
+          <div className="flex flex-col flex-wrap md:flex-row -mr-2 -ml-2">
+            <div className="w-full flex items-center mx-2 py-10">
+              <div className="w-8/12">
+                <img
+                  src="/projects/clients/cover.jpg"
+                  alt="Design Challenges"
+                  className="w-full object-cover rounded-lg"
+                  style={{ maxHeight: 400 }}
+                />
+              </div>
+              <div className="w-4/12 px-10">
+                <h3 className="h3 mb-2">Client Work</h3>
+                <p className="mb-5">A collection of my favorite client work.</p>
+                <Link href="/client-work">
+                  <button className="btn">view</button>
+                </Link>
+              </div>
+            </div>
+            <div className="w-full flex items-center mx-2 py-10 mb-10">
+              <div className="w-8/12">
+                <img
+                  src="/projects/designchallenges/cover.jpg"
+                  alt="Design Challenges"
+                  className="w-full object-cover rounded-lg"
+                  style={{ maxHeight: 400 }}
+                />
+              </div>
+              <div className="w-4/12 px-10">
+                <h3 className="h3 mb-2">Design Challenges</h3>
+                <p className="mb-5">
+                  A collection of design challenges featured on the{" "}
+                  <a
+                    href="https://www.instagram.com/spoakdecor/"
+                    targte="_blank"
+                    className="text-noche font-semibold underline"
+                  >
+                    @spoakdecor
+                  </a>{" "}
+                  Instagram page.
+                </p>
+                <Link href="/design-challenges">
+                  <button className="btn">view</button>
+                </Link>
+              </div>
+            </div>
             {featuredProjects.map((project) => (
-              <div className="flex-1" key={project._id}>
+              <div className="flex-1 mx-2" key={project._id}>
                 <FeaturedProject
                   title={project.title}
                   url={project.url}
