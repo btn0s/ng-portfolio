@@ -32,16 +32,13 @@ const DesignChallenges = () => {
       title="Design Challenges"
       imageURL="/projects/designchallenges/cover.jpg"
     >
-      {/* <section className="section">
+      <section className="section py-2">
         <div className="container">
-          <div className="project-description py-10">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias,
-            tempore! Natus culpa nesciunt libero assumenda. Iusto deleniti
-            voluptatum ipsam veniam amet corporis possimus at fugiat, eligendi
-            aliquid, temporibus harum similique?
-          </div>
+          {/* <div className="project-description py-10 text-center">
+            This is a collection of work I've done for clients at Spoak.
+          </div> */}
         </div>
-      </section> */}
+      </section>
       <section className="section md:py-10">
         <div className="container">
           <Masonry

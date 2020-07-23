@@ -27,13 +27,13 @@ const ClientWork = () => {
 
   return (
     <ProjectLayout title="Client Work" imageURL="/projects/clients/cover.jpg">
-      {/* <section className="section">
+      <section className="section py-2">
         <div className="container">
-          <div className="project-description py-10 text-center">
+          {/* <div className="project-description py-10 text-center">
             This is a collection of work I've done for clients at Spoak.
-          </div>
+          </div> */}
         </div>
-      </section> */}
+      </section>
       {clients.map((client, index) => (
         <section className="section md:py-5" key={index}>
           <div className="container">
