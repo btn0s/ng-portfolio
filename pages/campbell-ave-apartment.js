@@ -7,7 +7,6 @@ const CampbellAve = () => {
     "projects/apt/image 10.png",
     "projects/apt/image 8.png",
     "projects/apt/image 4.png",
-    "projects/apt/image 2.png",
     "projects/apt/image 3.png",
     "projects/apt/image 7.png",
     "projects/apt/image 5.png",
