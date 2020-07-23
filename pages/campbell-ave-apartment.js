@@ -4,6 +4,7 @@ import ProjectLayout from "../layouts/ProjectLayout";
 const CampbellAve = () => {
   const images = [
     "projects/apt/image.png",
+    "projects/apt/image 10.png",
     "projects/apt/image 8.png",
     "projects/apt/image 4.png",
     "projects/apt/image 2.png",
@@ -18,7 +19,7 @@ const CampbellAve = () => {
 
   return (
     <ProjectLayout
-      title="Campbell Ave Apartment"
+      title="Central Phoenix Apartment"
       imageURL={getImage("hero-img.png")}
     >
       {/* <section className="section">

@@ -42,12 +42,12 @@ const Home = () => {
             className="hero-img w-full md:w-11/12 md:mb-0"
           />
           <div className="hero-info absolute bottom-0 right-0 p-4 md:p-8 w-10/12 md:w-5/12 -mb-5 md:mb-5 shadow-xl bg-white rounded-lg">
-            <h2 className="h2 mb-2">Cambell Ave Apartment</h2>
-            <p className="mb-5">
+            <h2 className="h2 mb-4">Central Phoenix Apartment</h2>
+            {/* <p className="mb-5">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Necessitatibus, corporis dolor dolore excepturi omnis asperiores
               expedita.
-            </p>
+            </p> */}
             <Link href="/campbell-ave-apartment">
               <button className="btn btn--primary">view</button>
             </Link>

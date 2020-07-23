@@ -9,7 +9,7 @@ const Navbar = () => (
             <div className="font-semibold text-noche text-lg my-0 leading-3">
               Nathalie Garcia
             </div>
-            <div>interior designer & stylist</div>
+            <div>interior design & styling</div>
           </a>
         </Link>
       </div>

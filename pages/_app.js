@@ -33,7 +33,7 @@ const AppLayout = ({ children }) => {
   return (
     <div className="main-wrapper">
       <Head>
-        <title>Nathalie Garcia | Interior Designer & Stylist</title>
+        <title>Nathalie Garcia | Interior Design & Styliing</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -43,7 +43,7 @@ const AppLayout = ({ children }) => {
       </main>
 
       <footer className="flex justify-center py-10">
-        Nathalie Garcia | Interior Designer & Stylist
+        Nathalie Garcia | Interior Design & Styliing
       </footer>
       <img src="/bg-blob-1.png" className="bg-blob-1" />
       <img src="/bg-blob-2.png" className="bg-blob-2" />
