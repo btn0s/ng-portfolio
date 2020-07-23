@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { motion, AnimatePresence } from "framer-motion";
+import "react-image-lightbox/style.css";
 
 import Navbar from "../components/Navbar";
 

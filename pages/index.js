@@ -60,7 +60,7 @@ const Home = () => {
             Featured Projects
           </h2>
           <div className="flex flex-col flex-wrap md:flex-row -mr-2 -ml-2">
-            <div className="w-full flex flex-col md:flex-row items-center mx-2 md:py-10 mb-10">
+            <div className="w-full flex flex-col md:flex-row items-center mx-2 md:pb-10 mb-10">
               <div className="w-full md:w-8/12">
                 <img
                   src="/projects/clients/cover.jpg"
@@ -77,7 +77,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="w-full flex flex-col md:flex-row items-center mx-2 md:py-10 mb-10">
+            <div className="w-full flex flex-col md:flex-row items-center mx-2 md:pb-10 mb-10">
               <div className="w-full md:w-8/12">
                 <img
                   src="/projects/designchallenges/cover.jpg"
@@ -92,7 +92,7 @@ const Home = () => {
                   A collection of design challenges featured on the{" "}
                   <a
                     href="https://www.instagram.com/spoakdecor/"
-                    targte="_blank"
+                    target="_blank"
                     className="text-noche font-semibold underline"
                   >
                     @spoakdecor

@@ -57,19 +57,19 @@ const BedroomConcepts = () => {
       {concepts.map((concept, index) => (
         <section className="section py-10" key={concept.title}>
           <div className="container">
-            <div className="text-center py-4 mb-4">
+            <div className="text-center py-4 md:mb-4">
               <h2 className="h2 mb-2">{concept.title}</h2>
               {/* <p>{concept.description}</p> */}
             </div>
-            <div className="flex items-center -mx-4">
-              <div className="w-5/12 mx-4">
+            <div className="flex flex-col md:flex-row md:items-center md:-mx-4">
+              <div className="w-full md:w-5/12 md:mx-4">
                 <img
                   src={`${ASSET_PATH}/${concept.conceptImage}`}
                   alt={concept.title}
                   className="w-full rounded-lg"
                 />
               </div>
-              <div className="w-7/12 mx-4">
+              <div className="w-full md:w-7/12 md:mx-4">
                 <img
                   src={`${ASSET_PATH}/${concept.mockupImage}`}
                   alt={concept.title}

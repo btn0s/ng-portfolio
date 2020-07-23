@@ -4,6 +4,7 @@ import ProjectLayout from "../layouts/ProjectLayout";
 const CampbellAve = () => {
   const images = [
     "projects/apt/image.png",
+    "projects/apt/image 8.png",
     "projects/apt/image 4.png",
     "projects/apt/image 2.png",
     "projects/apt/image 3.png",
@@ -11,7 +12,6 @@ const CampbellAve = () => {
     "projects/apt/image 5.png",
     "projects/apt/image 9.png",
     "projects/apt/image 6.png",
-    "projects/apt/image 8.png",
   ];
 
   const getImage = (path) => require(`../public/${path}`);
@@ -21,7 +21,7 @@ const CampbellAve = () => {
       title="Campbell Ave Apartment"
       imageURL={getImage("hero-img.png")}
     >
-      <section className="section">
+      {/* <section className="section">
         <div className="container">
           <div className="project-description py-10">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias,
@@ -30,7 +30,7 @@ const CampbellAve = () => {
             aliquid, temporibus harum similique?
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="section py-10">
         <div className="container">
           <h2 className="h2 text-center mb-10">Concept</h2>
@@ -63,8 +63,8 @@ const CampbellAve = () => {
           <h2 className="h2 text-center mb-10">Final Product</h2>
           <Masonry
             breakpointCols={2}
-            className="my-masonry-grid"
-            columnClassName="my-masonry-grid_column"
+            className="my-masonry-grid -mx-4"
+            columnClassName="my-masonry-grid_column mx-4"
           >
             {images.map((image, index) => (
               <img src={getImage(image)} key={index} className="rounded-lg" />
