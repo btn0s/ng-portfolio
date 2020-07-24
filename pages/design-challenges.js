@@ -31,6 +31,7 @@ const DesignChallenges = () => {
     <ProjectLayout
       title="Design Challenges"
       imageURL="/projects/designchallenges/cover.jpg"
+      caption="The challenge: Design the perfect Zoom background."
     >
       <section className="section py-2">
         <div className="container">

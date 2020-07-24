@@ -34,7 +34,7 @@ body {
 .h3 {
   @apply text-lg;
 }
-@screen md {
+@media screen and (min-width: 768px) {
   .h1 {
     @apply .text-4xl;
   }
@@ -58,27 +58,27 @@ body {
   @apply object-cover rounded-lg;
   height: 400px;
 }
-@screen md {
+@media screen and (min-width: 768px) {
   .hero-img {
     height: 500px;
   }
 }
 
 .hero-info {
-  right: -30px;
-  bottom: -30px;
+  right: 10px;
+  bottom: -10px;
 }
-@screen md {
+@media screen and (min-width: 768px) {
   .hero-info {
-    right: 0px;
-    bottom: 0px;
+    right: -30px;
+    bottom: -30px;
   }
 }
 
 .project-hero {
   height: 200px;
 }
-@screen md {
+@media screen and (min-width: 768px) {
   .project-hero {
     height: 500px;
   }

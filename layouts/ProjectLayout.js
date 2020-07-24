@@ -1,5 +1,5 @@
 const ProjectLayout = (props) => {
-  const { title, children, imageURL } = props;
+  const { title, children, imageURL, caption } = props;
 
   return (
     <div className="ProjectLayout">
@@ -16,6 +16,7 @@ const ProjectLayout = (props) => {
               className="project-hero w-full rounded-lg object-cover md:mb-10 mt-5 md:mt-10"
             />
           )}
+          {caption && <p className="text-sm p-1 text-center">{caption}</p>}
         </div>
       </div>
       {children}
