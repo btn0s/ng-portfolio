@@ -62,14 +62,14 @@ const BedroomConcepts = () => {
               {/* <p>{concept.description}</p> */}
             </div>
             <div className="flex flex-col md:flex-row md:items-center md:-mx-4">
-              <div className="w-full md:w-5/12 md:mx-4">
+              <div className="w-full md:w-6/12 md:mx-4">
                 <img
                   src={`${ASSET_PATH}/${concept.conceptImage}`}
                   alt={concept.title}
                   className="w-full rounded-lg"
                 />
               </div>
-              <div className="w-full md:w-7/12 md:mx-4">
+              <div className="w-full md:w-6/12 md:mx-4">
                 <img
                   src={`${ASSET_PATH}/${concept.mockupImage}`}
                   alt={concept.title}

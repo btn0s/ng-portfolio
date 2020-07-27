@@ -14,11 +14,13 @@ const Navbar = () => (
         </Link>
       </div>
       <div className="Navbar__menu flex">
-        {/* <div className="Navbar__menu__menu-item">about</div> */}
         <div className="Navbar__menu__menu-item">
-          <a href="mailto:ngarcianorris@gmail.com?subject=Hi! I'd love to work together.">
-            contact
-          </a>
+          <Link href="/about">
+            <a>About Me</a>
+          </Link>
+        </div>
+        <div className="Navbar__menu__menu-item">
+          <a href="/resume.pdf">My Resume</a>
         </div>
       </div>
     </div>

@@ -70,7 +70,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .hero-info {
-    right: -30px;
+    right: 0;
     bottom: -30px;
   }
 }
@@ -80,7 +80,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .project-hero {
-    height: 500px;
+    height: 550px;
+    object-position: 0 80%;
   }
 }
 
@@ -120,4 +121,10 @@ body {
 .my-masonry-grid_column > .grid-item {
   /* change div to reference your elements you put in <Masonry> */
   @apply mb-10 text-center;
+}
+
+@media screen and (min-width: 768px) {
+  .ImageGallery__image {
+    height: 400px;
+  }
 }

@@ -14,7 +14,7 @@ const ImageGallery = ({ project, images }) => {
         <div className="w-1/2 px-2" key={index}>
           <img
             src={`${ASSET_PATH}/${image}`}
-            className="w-full rounded-lg mb-5 h-32 md:h-64 object-cover"
+            className="ImageGallery__image w-full rounded-lg mb-5 h-32 object-cover"
             onClick={() => {
               setIsLightboxOpen(true);
               setPhotoIndex(index);

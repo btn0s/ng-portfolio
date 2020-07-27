@@ -49,7 +49,7 @@ const Home = () => {
               expedita.
             </p> */}
             <Link href="/campbell-ave-apartment">
-              <button className="btn btn--primary">view</button>
+              <button className="btn btn--primary">View</button>
             </Link>
           </div>
         </div>
@@ -73,7 +73,7 @@ const Home = () => {
                 <h3 className="h3 mb-2">Client Work</h3>
                 <p className="mb-5">A collection of my favorite client work.</p>
                 <Link href="/client-work">
-                  <button className="btn">view</button>
+                  <button className="btn">View</button>
                 </Link>
               </div>
             </div>
@@ -100,7 +100,7 @@ const Home = () => {
                   Instagram page.
                 </p>
                 <Link href="/design-challenges">
-                  <button className="btn">view</button>
+                  <button className="btn">View</button>
                 </Link>
               </div>
             </div>
