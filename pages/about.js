@@ -3,12 +3,17 @@ const About = () => {
     <div className="About">
       <section className="section">
         <div className="container">
-          <h2 className="h2 my-10 text-center">About Me</h2>
+          <h3 className="h3 my-10 text-center">About Me</h3>
           <div className="flex flex-col md:flex-row md:-mx-4">
-            <div className="flex-1 order-2 md:order-1 md:mx-4">
-              <p className="text-xl font-semibold text-noche mb-3">
-                Hi! I'm Nathalie.
-              </p>
+            <div className="w-full md:w-5/12 mb-5 md:mb-0 md:mx-4">
+              <img
+                src="me.png"
+                alt="Nathalie"
+                className="rounded-lg h-64 w-full object-cover"
+              />
+            </div>
+            <div className="w-full md:w-7/12 md:mx-4">
+              <h2 className="h2 mb-3">Hi! I'm Nathalie.</h2>
               <p className="mb-3">
                 I have always enjoyed design in general, whether it was graphic,
                 fashion, or interiors. Having a background in Advertising and
@@ -38,13 +43,6 @@ const About = () => {
                 Design & Architecture Studies that I intend to finish by next
                 year (2021).
               </p>
-            </div>
-            <div className="flex-1 order-1 md:order-2 mb-5 md:mb-0 md:mx-4">
-              <img
-                src="me.jpg"
-                alt="Nathalie"
-                className="rounded-lg h-64 w-full object-cover"
-              />
             </div>
           </div>
         </div>
