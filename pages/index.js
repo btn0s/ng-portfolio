@@ -41,7 +41,7 @@ const Home = () => {
             alt="Campbell Ave"
             className="hero-img w-full md:w-11/12 md:mb-0"
           />
-          <div className="hero-info absolute bottom-0 right-0 p-4 md:p-8 w-10/12 md:w-5/12 -mb-5 md:mb-5 shadow-xl bg-white rounded-lg">
+          <div className="hero-info text-right md:text-left absolute bottom-0 right-0 p-4 md:p-8 w-10/12 md:w-5/12 -mb-5 md:mb-5 shadow-xl bg-white rounded-lg">
             <h2 className="h2 mb-4">Central Phoenix Apartment</h2>
             {/* <p className="mb-5">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -73,7 +73,7 @@ const Home = () => {
                 <h3 className="h3 mb-2">Client Work</h3>
                 <p className="mb-5">A collection of my favorite client work.</p>
                 <Link href="/client-work">
-                  <button className="btn">View</button>
+                  <button className="btn w-full">View</button>
                 </Link>
               </div>
             </div>
@@ -100,7 +100,7 @@ const Home = () => {
                   Instagram page.
                 </p>
                 <Link href="/design-challenges">
-                  <button className="btn">View</button>
+                  <button className="btn w-full">View</button>
                 </Link>
               </div>
             </div>
