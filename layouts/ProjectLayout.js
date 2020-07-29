@@ -1,8 +1,10 @@
+import classNames from "classnames";
+
 const ProjectLayout = (props) => {
-  const { title, children, imageURL, caption } = props;
+  const { title, children, imageURL, caption, className } = props;
 
   return (
-    <div className="ProjectLayout">
+    <div className={classNames("ProjectLayout", className)}>
       <div className="section">
         <div className="container">
           <div className="ProjectLayout__title text-center pt-10">

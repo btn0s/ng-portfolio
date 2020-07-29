@@ -40,7 +40,11 @@ const About = () => {
               </p>
             </div>
             <div className="flex-1 order-1 md:order-2 mb-5 md:mb-0 md:mx-4">
-              <img src="me.png" alt="Nathalie" className="rounded-lg" />
+              <img
+                src="me.png"
+                alt="Nathalie"
+                className="rounded-lg h-64 w-full object-cover"
+              />
             </div>
           </div>
         </div>

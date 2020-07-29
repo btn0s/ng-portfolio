@@ -36,12 +36,12 @@ const Navbar = () => {
         <div className={mobileMenuClassNames}>
           <div className="py-5">
             <Link href="/about">
-              <a>About Me</a>
+              <a onClick={() => setMobileMenuOpen(false)}>About Me</a>
             </Link>
           </div>
           <div className="py-5">
             <Link href="/inspiration">
-              <a>Inspiration</a>
+              <a onClick={() => setMobileMenuOpen(false)}>Inspiration</a>
             </Link>
           </div>
           <div className="py-5">

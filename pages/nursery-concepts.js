@@ -41,7 +41,7 @@ const NurseryConcepts = () => {
               {/* <p>{concept.description}</p> */}
             </div>
             <div className="flex flex-col md:flex-row md:items-center md:-mx-4">
-              <div className="w-full md:w-6/12 md:mx-4">
+              <div className="w-full md:w-6/12 mb-5 md:mx-4">
                 <img
                   src={`${ASSET_PATH}/${concept.conceptImage}`}
                   alt={concept.title}

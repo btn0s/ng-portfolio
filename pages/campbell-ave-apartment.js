@@ -18,6 +18,7 @@ const CampbellAve = () => {
 
   return (
     <ProjectLayout
+      className="Apt"
       title="Central Phoenix Apartment"
       imageURL={getImage("hero-img.png")}
     >

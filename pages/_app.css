@@ -95,6 +95,9 @@ body {
     object-position: 0 80%;
   }
 }
+.Apt .project-hero {
+  object-position: 0 50%;
+}
 
 .btn {
   @apply py-4 px-8 rounded-lg bg-gray-300 text-noche font-semibold outline-none;
