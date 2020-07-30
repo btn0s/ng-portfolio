@@ -6,11 +6,7 @@ const About = () => {
           <h3 className="h3 my-10 text-center">About Me</h3>
           <div className="flex flex-col md:flex-row md:-mx-4">
             <div className="w-full md:w-5/12 mb-5 md:mb-0 md:mx-4">
-              <img
-                src="me.png"
-                alt="Nathalie"
-                className="rounded-lg h-64 w-full object-cover"
-              />
+              <img src="me.png" alt="Nathalie" className="rounded-lg w-full" />
             </div>
             <div className="w-full md:w-7/12 md:mx-4">
               <h2 className="h2 mb-3">Hi! I'm Nathalie.</h2>
