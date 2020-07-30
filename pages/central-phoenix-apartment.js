@@ -3,15 +3,15 @@ import ProjectLayout from "../layouts/ProjectLayout";
 
 const Apt = () => {
   const images = [
-    "projects/apt/Image 1.png",
-    "projects/apt/Image 8.png",
-    "projects/apt/Image 4.png",
-    "projects/apt/Image 3.png",
-    "projects/apt/Image 7.png",
-    "projects/apt/Image 5.png",
+    "projects/apt/Image1.png",
+    "projects/apt/Image8.png",
+    "projects/apt/Image4.png",
+    "projects/apt/Image3.png",
+    "projects/apt/Image7.png",
+    "projects/apt/Image5.png",
   ];
 
-  const getImage = (path) => `${path}`;
+  const getImage = (path) => `/${path}`;
 
   return (
     <ProjectLayout
