@@ -7,6 +7,7 @@ const Apt = () => {
     "projects/apt/Image8.png",
     "projects/apt/Image4.png",
     "projects/apt/Image3.png",
+    "projects/apt/Image2.png",
     "projects/apt/Image7.png",
     "projects/apt/Image5.png",
   ];
