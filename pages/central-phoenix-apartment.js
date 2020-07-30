@@ -11,7 +11,7 @@ const Apt = () => {
     "projects/apt/Image 5.png",
   ];
 
-  const getImage = (path) => require(`../public/${path}`);
+  const getImage = (path) => `${path}`;
 
   return (
     <ProjectLayout
