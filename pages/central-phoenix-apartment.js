@@ -1,7 +1,7 @@
 import Masonry from "react-masonry-css";
 import ProjectLayout from "../layouts/ProjectLayout";
 
-export default () => {
+const Apt = () => {
   const images = [
     "projects/apt/Image 1.png",
     "projects/apt/Image 8.png",
@@ -73,3 +73,5 @@ export default () => {
     </ProjectLayout>
   );
 };
+
+export default Apt;
