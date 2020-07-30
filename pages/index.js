@@ -48,7 +48,7 @@ const Home = () => {
               Necessitatibus, corporis dolor dolore excepturi omnis asperiores
               expedita.
             </p> */}
-            <Link href="/campbell-ave-apartment">
+            <Link href="/central-phoenix-apartment">
               <button className="btn btn--primary">View</button>
             </Link>
           </div>

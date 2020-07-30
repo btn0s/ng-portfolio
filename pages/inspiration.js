@@ -12,9 +12,9 @@ const Inspiration = () => {
             </div>
           </div>
           <div className="flex flex-col md:flex-row md:-mx-4">
-            <div className="md:mx-4 w-full md:w-4/12 text-center md:text-left py-10"></div>
-            <div className="md:mx-4 w-full md:w-8/12 text-right">
-              <h2 className="h2 my-4">Inspiration is everywhere.</h2>
+            <div className="md:mx-4 w-full md:w-4/12 text-center md:text-left py-5 md:py-10"></div>
+            <div className="md:mx-4 w-full md:w-8/12 text-center">
+              <h3 className="h3 md:my-5">Inspiration is everywhere.</h3>
             </div>
           </div>
         </div>
