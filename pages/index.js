@@ -103,8 +103,18 @@ const Home = () => {
                   <button className="btn w-full">View</button>
                 </Link>
               </div>
+            </div>
+            <div className="w-full flex flex-col md:flex-row items-center md:mx-2 md:pb-10 mb-10">
+              <div className="w-full md:w-8/12">
+                <img
+                  src="/projects/collab/collab-2.png"
+                  alt="Design Challenges"
+                  className="w-full object-cover rounded-lg"
+                  style={{ maxHeight: 400 }}
+                />
+              </div>
               <div className="w-full md:w-4/12 pt-5 px-4 md:px-10">
-                <h3 className="h3 mb-2">Brand Collab</h3>
+                <h3 className="h3 mb-2">Brand Collabs</h3>
                 <p className="mb-5">
                   Designs in collaboration with Equal Parts, Open Spaces, and
                   Oliver Space.
