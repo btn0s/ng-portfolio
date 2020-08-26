@@ -103,6 +103,16 @@ const Home = () => {
                   <button className="btn w-full">View</button>
                 </Link>
               </div>
+              <div className="w-full md:w-4/12 pt-5 px-4 md:px-10">
+                <h3 className="h3 mb-2">Brand Collab</h3>
+                <p className="mb-5">
+                  Designs in collaboration with Equal Parts, Open Spaces, and
+                  Oliver Space.
+                </p>
+                <Link href="/collab">
+                  <button className="btn w-full">View</button>
+                </Link>
+              </div>
             </div>
             {featuredProjects.map((project) => (
               <div className="flex-1 mx-2" key={project._id}>
