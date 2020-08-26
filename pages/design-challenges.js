@@ -17,10 +17,13 @@ const DesignChallenges = () => {
       image: "projects/designchallenges/challenges-3.png",
     },
     {
+      caption: "The challenge: The perfect lobby.",
+      image: "projects/designchallenges/challenges-7.png",
+    },
+    {
       caption: "The challenge: Upping your bookshelf game.",
       image: "projects/designchallenges/challenges-1.png",
     },
-
     {
       caption: "The challenge: Dream pet nook.",
       image: "projects/designchallenges/challenges-2.png",
