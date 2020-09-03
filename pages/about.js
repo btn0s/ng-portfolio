@@ -8,7 +8,7 @@ const About = () => {
             <div className="w-full md:w-5/12 mb-5 md:mb-0 md:mx-4">
               <img src="me.png" alt="Nathalie" className="rounded-lg w-full" />
             </div>
-            <div className="w-full md:w-7/12 md:mx-4">
+            <div className="w-full md:w-7/12 md:pt-6 md:mx-4">
               <h2 className="h2 mb-3">Hi! I'm Nathalie.</h2>
               <p className="mb-3">
                 I have always enjoyed design in general, whether it was graphic,
