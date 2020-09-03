@@ -36,7 +36,7 @@ const DesignChallenges = () => {
       imageURL="/projects/designchallenges/cover.jpg"
       caption="The challenge: Design the perfect Zoom background."
     >
-      <section className="section text-center md:pt-10">
+      <section className="section text-center py-4 md:pt-10">
         <div className="container">
           <img src={images[0].image} className="rounded-lg" />
           <p className="pt-4">{images[0].caption}</p>
