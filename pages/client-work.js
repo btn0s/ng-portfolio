@@ -46,8 +46,8 @@ const ClientWork = () => {
         <section className="section md:py-5 mb-4" key={index}>
           <div className="container">
             <h3 className="h3">{client.name}</h3>
-            <h5 className="h5">{client.description}</h5>
-            <div className="text-sm mb-2 md:mb-4">{client.location}</div>
+            <div className="text-sm mb-2 md:mb-2">{client.location}</div>
+            <h5 className="h5 md:mb-4">{client.description}</h5>
             <ImageGallery images={client.images} project="clients" />
           </div>
         </section>
