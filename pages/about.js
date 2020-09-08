@@ -20,7 +20,7 @@ const About = () => {
               </p>
               <p className="mb-3">
                 My taste in interiors happened organically, my inspiration comes
-                from everything I see and expirience. I want people to be proud
+                from everything I see and experience. I want people to be proud
                 of their space. A space where you want to spend time in because
                 you feel comfortable and make you feel emotions. I want to help
                 you implement the ideas in your head into something tangible.
@@ -35,7 +35,7 @@ const About = () => {
               </p>
               <p className="">
                 To accompany my experience, I also started my studies in Parsons
-                The New School of Design to obtein a certificate in Interior
+                The New School of Design to obtain a certificate in Interior
                 Design & Architecture Studies that I intend to finish by next
                 year (2021).
               </p>
